@@ -1,0 +1,24 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+# Module directories
+.terraform/
+
+# Log files
+*.log
+
+# Ignore override files as they can contain sensitive data
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore sensitive data files
+*.tfvars
+
+# Ignore files related to CLI configuration
+.terraformrc
+terraform.rc
+
+.terraform.lock.hcl
